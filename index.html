@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Importando uma fonte moderna (Poppins) e ícones (FontAwesome) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main id="principal">
+    <section class="conteudo">
+        <article class="texto">
+         <p class="paragrafo">
+            Até 79% OFF
+            Na Hospedagem de Sites
+            Crie sua landing pageem minutos com IA
+            Servidores no Brasil
+            E-mail grátis
+            Migração de site grátis
+            Suporte 24h por dia
+            <button class="CTA">Orçamento</button>
+         </p>
+        </article>
+    </section>
+    <div class="login-container">
+        <div class="login-card">
+            <!-- Avatar / Imagem de Perfil -->
+            <div class="avatar-container">
+                <img src="profile.jpg" alt="Perfil">
+            </div>
+
+            <h2>J.R</h2>
+
+            <form>
+                <!-- Campo de Nome -->
+                <div class="input-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Nome de usuário"  id="nome">
+                </div>
+
+                <!-- Campo de Senha -->
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="senha" placeholder="Senha"  onclick="mostrarSenha()">
+                    <i class="fa-solid fa-eye" id="btn-senha"></i>
+                    <span class="mnserro"></span>
+                </div>
+
+                <!-- Links auxiliares -->
+                <div class="actions-links">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+
+                <!-- Botão Enviar -->
+                <button type="submit" class="btn-submit">Entrar</button>
+
+                <div class="register-link">
+                    <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+    <script src="cadastro.js"></script>
+</body>
+</html>
